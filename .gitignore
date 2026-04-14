@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.py[cod]
+last_response.html
+output.json
