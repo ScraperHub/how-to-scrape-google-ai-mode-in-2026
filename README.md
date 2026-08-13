@@ -96,7 +96,7 @@ The top-level object has a `results` array with one item. Useful fields include:
 
 - **`results[0].content`**: `prompt`, `response_text`, `citations`, `links`, `parse_status_code`
 - **`results[0].url`**: Google AI Mode URL that was requested
-- **`results[0].status_code`**, **`pc_status`**, **`crawl_url`**, **`token_used`**, **`scraper`**
+- **`results[0].status_code`**, **`cb_status`**, **`crawl_url`**, **`token_used`**, **`scraper`**
 - **`results[0].raw_body_preview`**: Short preview of the raw `body` from Crawlbase (for debugging parsers)
 
 ## Use as a library

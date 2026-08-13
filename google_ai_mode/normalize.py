@@ -232,7 +232,7 @@ def build_blog_style_result(
                 },
                 "url": requested_url,
                 "status_code": crawl.get("original_status"),
-                "pc_status": crawl.get("pc_status"),
+                "cb_status": crawl.get("cb_status"),
                 "crawl_url": crawl.get("url"),
                 "token_used": token_used,
                 "scraper": scraper,

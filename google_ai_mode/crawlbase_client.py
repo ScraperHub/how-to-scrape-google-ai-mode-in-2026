@@ -21,7 +21,7 @@ def fetch_crawlbase_json(
     """
     GET Crawling API with ``format=json``.
 
-    Returns the parsed top-level JSON (``original_status``, ``pc_status``, ``url``, ``body``, ...).
+    Returns the parsed top-level JSON (``original_status``, ``cb_status``, ``url``, ``body``, ...).
     """
     params: dict[str, Any] = {
         "token": token,
